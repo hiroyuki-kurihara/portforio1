@@ -1,0 +1,71 @@
+<!doctype html?>
+<html lang="ja">
+<head>
+<meta charset=utf-8>
+<title>セトサイクル-問い合わせ</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+<script>
+    function func1(str) {
+        alert(str + "がクリックされました");
+    }
+    function init() {
+        alert("ドキュメントが更新されました");
+    }
+    window.onload = init;
+</script>
+</head>
+<body>
+    <div class="wrapper big-bg" id="home">
+        <div class="header-right">
+            <h2><a href="index.html"><img src="images/logo1.png" class="logo" alt="メニュー"></a></h2>
+            <ul>
+                <li><a href="#" class="BTN">ログイン</a></li>
+                <li><a href="#" class="BTN">新規登録</a></li>
+            </ul>
+        </div><!--headerright-->
+    <div class="head">
+        <h1>——— Find Your Favorite ———</h1>
+    </div>
+    <h1 class="page-title">Contact</h1>
+<form action="#" method="post">
+    <div>
+        <laber for="name">お名前</laber><br>
+        <input type="text" id="your_name">
+    </div>
+    <div>
+        <laber for="email">メールアドレス</laber><br>
+        <input type="text" id="your_email">
+    </div>
+    <div>
+        <laber for="message">メッセージ</laber><br>
+       <textarea id="message" name="your_message"></textarea>
+    </div>
+    <input type="submit" class="btn" value="送信" onclick="func1('送信');">
+
+</form>
+</div><!--wrapper-->
+<div class="wrapper location">
+    <div class="location-info">
+        <h3 class="sub-title">セトサイクル登戸店</h3>
+        <p>
+            住所：神奈川県川崎市<br>
+            多摩区登戸○○○○<br>
+            電話：03-0000-0000<br>
+            営業時間：11:00~18:00<br>
+            休日：月曜日
+        </p>
+    </div><!--locationinfo-->
+    <div class="location-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.2593220446306!2d139.56856337425668!3d35.621333066637256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f1274ae97203%3A0x63043e008d768f4a!2z55m75oi46aeF!5e0!3m2!1sja!2sjp!4v1592357105756!5m2!1sja!2sjp" width="800" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+</div>
+
+<footer>
+    <div class="wrapper">
+        <p>&copy; 2020 Hiroyuki Kurihara</p>
+    </div>
+</footer>
+
+</body>
+</html>
